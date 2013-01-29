@@ -1,0 +1,41 @@
+// Place all the styles related to the contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+#search, #results {
+	position: relative;
+	left: 0px;
+	width: 600px;
+	margin: 40px auto;
+}
+
+#results {
+	display: none;
+	
+	td, th, table, tr {
+		border: 1px solid #999;
+		margin: 0px;
+		text-align: left;
+		border-collapse:collapse;
+		border-spacing: 0px; 
+	}
+	table {
+		width: 600px;
+	
+	}
+	
+
+}
+
+#none_found, #validation, #error {
+		display: none;
+		margin: 0px auto;
+		width: 600px;
+		position: relative;
+		top: 20px;
+}
